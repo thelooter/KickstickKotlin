@@ -1,0 +1,12 @@
+name: KickstickKotlin
+version: 1.0.0
+author: thelooter
+main: KickstickKotlin
+api-version: 1.17
+depend: [TranslationProvider, DatabaseProvider, Kotlin]
+description: Kicks Players
+commands:
+  kickstickkotlin:
+    description: Kickt Spieler bei Rechtsklick
+    usage: </command>
+    permission: tuxcraft.kickstick

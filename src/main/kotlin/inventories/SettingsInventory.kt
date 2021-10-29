@@ -59,7 +59,7 @@ class SettingsInventory {
         knockbackLevel.addUnsafeEnchantment(Enchantment.KNOCKBACK, level)
 
 
-        for (i in 0..inventory.size) {
+        for (i in 0 until inventory.size) {
             inventory.setItem(i,background)
         }
 

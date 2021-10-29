@@ -1,3 +1,4 @@
+import commands.KickstickCommand
 import listeners.InventoryListeners
 import listeners.PlayerListener
 import org.bukkit.entity.Player
@@ -18,10 +19,8 @@ class KickstickKotlin : JavaPlugin() {
         server.pluginManager.registerEvents(InventoryListeners(), this)
         server.pluginManager.registerEvents(PlayerListener(),this)
 
-        getCommand("kickstickkotlin")?.setExecutor(KickstickKotlin())
+        getCommand("kickstickkotlin")?.setExecutor(KickstickCommand())
 
 
-
-        super.onEnable()
     }
 }

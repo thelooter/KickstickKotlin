@@ -9,7 +9,6 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
     maven {
-        url = uri("https://papermc.io/repo/repository/maven-public/")
         url = uri("https://maven.tuxcraft.eu/repository/maven-public/")
     }
 }

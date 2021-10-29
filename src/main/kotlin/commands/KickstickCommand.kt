@@ -45,7 +45,7 @@ class KickstickCommand : CommandExecutor {
         val itemStack = ItemStack(Material.BLAZE_ROD,1)
         val itemMeta: ItemMeta = itemStack.itemMeta
         itemMeta.displayName(Component.text("Kickstick", NamedTextColor.GOLD))
-        itemMeta.addEnchant(Enchantment.KNOCKBACK, KickstickKotlin.knockbackMap.get(player) ?: 1, true)
+        itemMeta.addEnchant(Enchantment.KNOCKBACK, KickstickKotlin.knockbackMap[player] ?: 1, true)
         itemStack.itemMeta = itemMeta
 
         player.inventory.addItem(itemStack)

@@ -20,8 +20,8 @@ java.targetCompatibility = JavaVersion.VERSION_16
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.31")
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.2")
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
     compileOnly("eu.tuxcraft:DatabaseProvider:1.0.0")
 }
